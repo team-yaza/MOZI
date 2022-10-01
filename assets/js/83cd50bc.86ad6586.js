@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmozi_docs=self.webpackChunkmozi_docs||[]).push([[9831],{6903:o=>{o.exports=JSON.parse('{"permalink":"/mozi/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

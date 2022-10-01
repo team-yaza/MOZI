@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmozi_docs=self.webpackChunkmozi_docs||[]).push([[2006],{2992:o=>{o.exports=JSON.parse('{"label":"facebook","permalink":"/mozi/blog/tags/facebook","allTagsPath":"/mozi/blog/tags","count":1}')}}]);
