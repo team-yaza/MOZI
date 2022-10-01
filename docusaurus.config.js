@@ -60,7 +60,7 @@ const config = {
         title: "MOZI",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/mozi.svg",
         },
         items: [
           {
