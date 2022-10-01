@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmozi_docs=self.webpackChunkmozi_docs||[]).push([[6827],{7772:o=>{o.exports=JSON.parse('{"permalink":"/mozi/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
