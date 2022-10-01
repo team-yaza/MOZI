@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula")
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "MOZI",
-  tagline: "MOZI를 어떻게 개발했는지에 대하여",
+  tagline: "MOZI의 개발기록",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "team-yaza", // Usually your GitHub org/user name.
+  projectName: "MOZI", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} MOZI, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

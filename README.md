@@ -3,11 +3,11 @@
 ### Installation
 
 ```
-$ pnpm install
+$ yarn install
 ```
 
 ### Development
 
 ```
-$ pnpm start
+$ yarn start
 ```
