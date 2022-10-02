@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula")
 const config = {
   title: "MOZI",
   tagline: "MOZI의 개발기록",
-  url: "https://github.com/team-yaza",
+  url: "https://team-yaza.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -59,17 +59,17 @@ const config = {
       navbar: {
         title: "MOZI",
         logo: {
-          alt: "My Site Logo",
+          alt: "MOZI",
           src: "img/mozi.svg",
         },
         items: [
+          { to: "/blog", label: "Blog", position: "left" },
           {
             type: "doc",
             docId: "intro",
             position: "left",
             label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
