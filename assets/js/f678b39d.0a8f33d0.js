@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmozi_docs=self.webpackChunkmozi_docs||[]).push([[9742],{4111:s=>{s.exports=JSON.parse('{"label":"CNU","permalink":"/blog/tags/cnu","allTagsPath":"/blog/tags","count":1}')}}]);

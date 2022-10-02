@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmozi_docs=self.webpackChunkmozi_docs||[]).push([[6551],{4212:s=>{s.exports=JSON.parse('{"label":"Software Maestro","permalink":"/blog/tags/software-maestro","allTagsPath":"/blog/tags","count":1}')}}]);
