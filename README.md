@@ -1,15 +1,14 @@
 # How to MOZI
 
-MOZI를 개발하면서 고민한 내용을 적은 블로그와 MOZI의 기능에 대해 설명한 내용을 포함한 문서입니다.
+이 문서는 다음 내용을 포함합니다.
 
-### Installation
+- 팀 소개 및 목표
+- 기술 블로그
+- MOZI의 기능에 대한 설명
+
+### 💻 실행 방법
 
 ```
 $ yarn install
-```
-
-### Development
-
-```
 $ yarn start
 ```
