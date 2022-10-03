@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmozi_docs=self.webpackChunkmozi_docs||[]).push([[489],{9159:s=>{s.exports=JSON.parse('{"label":"WEB","permalink":"/blog/tags/web","allTagsPath":"/blog/tags","count":1}')}}]);
