@@ -43,6 +43,10 @@ const config = {
           showReadingTime: true,
           readingTime: ({ content, frontMatter, defaultReadingTime }) =>
             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
+          blogTitle: "MOZI",
+          blogDescription: "MOZI의 개발기록",
+          blogSidebarCount: "ALL",
+          blogSidebarTitle: "All posts",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
