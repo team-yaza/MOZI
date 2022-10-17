@@ -10,6 +10,8 @@ tags: [Software Maestro, MOZI, CNU]
 
 ![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
 
+<!--truncate-->
+
 ## 공통 목표
 
 **MOZI**
