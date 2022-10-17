@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmozi_docs=self.webpackChunkmozi_docs||[]).push([[5798],{3157:s=>{s.exports=JSON.parse('{"label":"offline-first","permalink":"/blog/tags/offline-first","allTagsPath":"/blog/tags","count":1}')}}]);

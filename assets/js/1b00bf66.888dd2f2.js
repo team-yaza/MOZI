@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmozi_docs=self.webpackChunkmozi_docs||[]).push([[632],{7858:e=>{e.exports=JSON.parse('{"label":"Service Worker","permalink":"/blog/tags/service-worker","allTagsPath":"/blog/tags","count":4}')}}]);
