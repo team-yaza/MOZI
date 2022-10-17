@@ -5,6 +5,10 @@ authors: [chanhui]
 tags: [PWA, Service Worker, Cache Storage API, MOZI]
 ---
 
+![](https://velog.velcdn.com/images/hancihu/post/d41e3773-1274-46d1-87ff-7b0181abb749/image.png)
+
+<!--truncate-->
+
 본 포스팅은 아래 링크의 **만들면서 배우는 프로그레시브 웹 앱** 책을 보며 공부한 내용을 스스로 정리한 것 입니다.
 
 [만들면서 배우는 프로그레시브 웹 앱](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=190254386)
@@ -28,8 +32,6 @@ self.addEventListener("fetch", function (event) {
   );
 });
 ```
-
-<!--truncate-->
 
 오프라인 상태를 감지하면 `index-offline.html` 을 넘겨주는 코드이다.
 

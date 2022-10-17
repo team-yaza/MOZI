@@ -5,6 +5,10 @@ authors: [chanhui]
 tags: [PWA, Service Worker, MOZI]
 ---
 
+![](https://velog.velcdn.com/images/hancihu/post/d41e3773-1274-46d1-87ff-7b0181abb749/image.png)
+
+<!--truncate-->
+
 본 포스팅은 아래 링크의 **만들면서 배우는 프로그레시브 웹 앱** 책을 보며 공부한 내용을 스스로 정리한 것 입니다.
 
 [만들면서 배우는 프로그레시브 웹 앱](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=190254386)
@@ -29,8 +33,6 @@ if ("serviceWorker" in navigator) {
     });
 }
 ```
-
-<!--truncate-->
 
 먼저 브라우저가 서비스워커를 지원하는지 확인해야한다.
 
