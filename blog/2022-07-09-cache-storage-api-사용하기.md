@@ -29,6 +29,8 @@ self.addEventListener("fetch", function (event) {
 });
 ```
 
+<!--truncate-->
+
 오프라인 상태를 감지하면 `index-offline.html` 을 넘겨주는 코드이다.
 
 다만, 여기에서는 무언가 이상한게 있는데, 오프라인 상태인데 `index-offline.html` 를 어떻게 알고 요청을 받아서 넘겨주는 것일까?

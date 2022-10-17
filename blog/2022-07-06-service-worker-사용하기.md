@@ -30,6 +30,8 @@ if ("serviceWorker" in navigator) {
 }
 ```
 
+<!--truncate-->
+
 먼저 브라우저가 서비스워커를 지원하는지 확인해야한다.
 
 브라우저가 서비스워커를 지원한다면 `navigator.serviceWorker.register`를 호출하여 서비스 워커를 등록한다.
