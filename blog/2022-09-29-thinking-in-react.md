@@ -257,5 +257,5 @@ React는 UI를 변수에 저장할 수 있으며 값으로 전달할 수 있습�
 
 ## 발표자료
 
-[Thinking in React.pdf](https://drive.google.com/file/d/1cc_6qva6u9h2LOnC6ABlmYANgco7JK7J/view?usp=sharing)
+[Thinking in React.pdf](https://drive.google.com/file/d/1cc_6qva6u9h2LOnC6ABlmYANgco7JK7J/view?usp=sharing)  
 [Thinking in React.key](https://drive.google.com/file/d/1m9r1bv8sCh-pILg4p8T_mTPmT2Bux4Ph/view?usp=sharing)
