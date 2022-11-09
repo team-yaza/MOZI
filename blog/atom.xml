@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://team-yaza.github.io/blog</id>
     <title>MOZI Blog</title>
-    <updated>2022-10-21T00:00:00.000Z</updated>
+    <updated>2022-11-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://team-yaza.github.io/blog"/>
     <subtitle>MOZI Blog</subtitle>
     <icon>https://team-yaza.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[SEO 최적화하기]]></title>
+        <id>seo</id>
+        <link href="https://team-yaza.github.io/blog/seo"/>
+        <updated>2022-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SEO란?]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="seo란">SEO란?<a class="hash-link" href="#seo란" title="Direct link to heading">​</a></h2><p>SEO란 Search Engine Optimization의 약자로 웹에 올리는 컨텐츠가 구글, 네이버, 다음과같은 검색엔진으로부터 제대로 인식이 될 수 있도록 최적화하는 작업이다. 최적화하는 방법에는 양질의 콘텐츠를 제공하거나, 접근성이나 성능적으로 뛰어난 웹을 개발하는 방법 등이 있지만 가장 기본적인 방법으로는 해당 페이지에 적합한 메타 태그를 삽입해서 크롤러가 웹을 잘 분석해서 인덱싱 하는데 도움을 주는 방법이 있다.</p><p>Next.js는 Head 컴포넌트를 제공하는데 해당 컴포넌트를 사용하면 페이지별로 아주 손쉽게 메타 태그를 삽입할 수 있다.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="오픈-그래프">오픈 그래프<a class="hash-link" href="#오픈-그래프" title="Direct link to heading">​</a></h2><p>오픈 그래프는 어떤 HTML 문서의 메타 정보를 쉽게 표시하기 위해서 메타 정보에 해당하는 제목, 설명, 문서의 타입, 대표 URL등 다양한 요소들에 대해서 사람들이 통일해서 쓸 수 있도록 정의해놓은 프로토콜이며 페이스북에 의하여 기존의 다양한 메타 데이터 표기 방법을 참조하여 만들어졌다.</p><p><img loading="lazy" src="https://velog.velcdn.com/images%2Fbyeol4001%2Fpost%2F320d9dc2-184a-46d3-a251-9f53054bbc36%2Fimage.png" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference<a class="hash-link" href="#reference" title="Direct link to heading">​</a></h2><ul><li><a href="https://velog.io/@byeol4001/Meta-Tag-OG%EC%98%A4%ED%94%88%EA%B7%B8%EB%9E%98%ED%94%84-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0" target="_blank" rel="noopener noreferrer">Meta Tag, OG(오픈 그래프) 사용하기</a></li></ul>]]></content>
+        <author>
+            <name>이현진</name>
+            <uri>https://github.com/hyunjinee</uri>
+        </author>
+        <category label="SEO" term="SEO"/>
+        <category label="MOZI" term="MOZI"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PWA에 대한 생각]]></title>
         <id>thinking-about-pwa</id>
