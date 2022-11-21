@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmozi_docs=self.webpackChunkmozi_docs||[]).push([[9890],{1079:s=>{s.exports=JSON.parse('{"label":"WebPush","permalink":"/blog/tags/web-push","allTagsPath":"/blog/tags","count":1}')}}]);
