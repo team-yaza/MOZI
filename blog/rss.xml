@@ -14,8 +14,7 @@
             <guid>web-push</guid>
             <pubDate>Wed, 09 Nov 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Push API는 웹 애플리케이션이 현재 로딩이 되어 있지 않더라도 서버로부터 메시지를 받을 수 있도록 하는 기능이다. 이는 개발자들이 비동기적으로 사용자에게 새로운 내용을 시기적절하게 전달할 수 있도록 만들어줍니다.]]></description>
-            <content:encoded><![CDATA[<p>Push API는 웹 애플리케이션이 현재 로딩이 되어 있지 않더라도 서버로부터 메시지를 받을 수 있도록 하는 기능이다. 이는 개발자들이 비동기적으로 사용자에게 새로운 내용을 시기적절하게 전달할 수 있도록 만들어줍니다.</p><p>애플리케이션이 push 메시지를 받기 위해서, service worker를 활성화합니다.</p><p>PushManager.subscribe()
-PushSubscription에 애플리케이션이 보내야하는 push 메시지를 담고,(엔드 포인트와 암호화키가 필요) service worker는 ServiceWorkerGlobalScope.onpush()라는 이벤트 핸들러로부터 전달되는 push 메시지를 처리하기 시작합니다.</p><p>각 요청은 capability URL:(당신이 애플리케이션)을 특정하여 엔드포인트를 구성하기 때문에 URL은 보안에 신경을 써야하며, 그렇지 않을 경우 다른 애플리케이션이 당신의 애플리케이션에 push 메시지를 보낼 가능성도 있다.</p><p>push 메시지를 전달하기 위해 service worker를 활성화하는건, 리소스 사용이 늘어나는 결과를 가져오기 때문에, 특히 배터리 사용에 영향을 미친다. 한편 push 메시지 처리를 위해 브라우저 간 다른 스키마를 가지기 때문에, 표준화된 메커니즘이 없다.</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Push API는 웹 애플리케이션이 현재 로딩이 되어 있지 않더라도 서버로부터 메시지를 받을 수 있도록 하는 기능이다. 이는 개발자들이 비동기적으로 사용자에게 새로운 내용을 시기적절하게 전달할 수 있도록 만들어줍니다.</p><p>애플리케이션이 push 메시지를 받기 위해서, service worker를 활성화합니다.</p><p>PushSubscription에 애플리케이션이 보내야하는 push 메시지를 담고,(엔드 포인트와 암호화키가 필요) service worker는 ServiceWorkerGlobalScope.onpush()라는 이벤트 핸들러로부터 전달되는 push 메시지를 처리하기 시작합니다.</p><p>각 요청은 capability URL:(당신이 애플리케이션)을 특정하여 엔드포인트를 구성하기 때문에 URL은 보안에 신경을 써야하며, 그렇지 않을 경우 다른 애플리케이션이 당신의 애플리케이션에 push 메시지를 보낼 가능성도 있다.</p><p>push 메시지를 전달하기 위해 service worker를 활성화하는건, 리소스 사용이 늘어나는 결과를 가져오기 때문에, 특히 배터리 사용에 영향을 미친다. 한편 push 메시지 처리를 위해 브라우저 간 다른 스키마를 가지기 때문에, 표준화된 메커니즘이 없다.</p>]]></content:encoded>
             <category>WebPush</category>
             <category>MOZI</category>
         </item>
