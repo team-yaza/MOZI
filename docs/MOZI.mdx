@@ -1,0 +1,195 @@
+---
+sidebar_position: 0
+---
+
+# MOZI
+
+![](https://velog.velcdn.com/images/hyunjine/post/10cf144e-852d-4344-9ecd-0c658b3f0209/image.png)
+
+> 다크모드를 켜주세요!
+
+안녕하세요 저희는 이현진, 김시온, 유찬희로 이루어진 야자(야간자율학습)팀입니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/83d8fdd8-ffed-45e0-b991-e0d2c66fe03d/image.png)
+
+**MOZI**는 할 일 관리 서비스입니다.
+
+> 메**모지** -> **MOZI**
+
+![](https://velog.velcdn.com/images/hyunjine/post/3ce5c559-922d-4c89-8168-56a2f61355c5/image.png)
+
+생산성 분야에서 유명한 책인 David Allen의 [Getting Things Done](https://ko.wikipedia.org/wiki/Getting_Things_Done)이라는 책에서 사람들은 무엇이든 할 수는 있지만, 모든 것을 할수는 없다고 말합니다. 모든 것을 하기위해 할 일을 기록하는 것은 필수적입니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/7b5ed804-4544-4a13-9851-7f6f9d8af534/image.png)
+
+MOZI에서는 사람들이 **할 일을 관리하는 방식**에 집중했습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/e0232bc4-142d-4233-9453-f44e1efa6951/image.png)
+
+기획 단계에서 97명의 참여자를 대상으로 사람들이 할 일을 관리하는 방식을 조사했습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/d0edf8e8-3d29-42fd-8040-27041f133bf3/image.png)
+
+먼저 주로 어떤 것을 메모하는지 물어봤습니다.
+
+대다수의 사람들이 일정 관리를 하기위해 메모를 작성하고 있었고 장보기 목록, 갑자기 떠오른 아이디어, 계정 비밀번호 저장, 맛집 리스트가 뒤를 이었습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/f75e7ed4-1ae2-4d6d-9dbc-f25b94410cf8/image.png)
+
+이를 그룹화해서 분류해보면 시간에 관한 메모, 장소에 관한 메모, 시간과 장소모두 관련된 메모로 분류할 수 있었습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/7bc4a14a-30e7-4d25-849f-da9b0de918ff/image.png)
+
+저희는 시간과 장소라는 키워드에 주목해봤습니다.
+사람들이 원하는 할 일 관리 애플리케이션은 정해진 시간에 할 일을 할 수 있도록 도와줘야합니다. 또한 정해진 장소에서 어떤 할 일을 해야하는지 시각화해서 보여줄 수 있어야합니다.
+
+정해진 시간에 할 일을 하기위해 **알림** 기능이 필요합니다.
+정해진 장소에서 해야하는 일을 확인하려면 **지도**에 할 일을 표시할 수 있어야합니다.
+
+이 두가지 기능을 핵심으로하여 **MOZI**를 만들었습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/adb813c5-bca1-43b6-903f-ed992efb76a2/image.png)
+
+기존의 서비스에서 시간과 장소에 집중하여 서비스를 만들기로 했습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/296514fa-53b0-4540-8bf5-01d7edc94fe8/image.png)
+
+먼저 저희가 고려한 시간 부분입니다.
+
+"할 일을 메모해뒀지만 잊어버린 경험이 있으신가요?"라는 설문에 72%의 사람들이 할 일을 메모해뒀지만 까먹은 경험이 있다고 답변하였고 이를 해결하기 위해 각각의 할 일에 대한 알림 기능을 만들었습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/b5b2144c-9a6d-4218-ad75-2b2136967d61/image.png)
+
+할 일에 대해서 **알림 시간**과 **DeadLine**을 설정하여 알림이 와야하는 시간과 할 일을 끝내야하는 날짜를 설정하여 관리할 수 있도록 구현했습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/a9951a74-b422-4600-9cab-5fcd03067c6c/image.png)
+
+설정한 시간을 바탕으로 캘린더에 시각화해서 보여주고 그 시간이 되면 정해진 내용으로 알림이 오도록 했습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/e75fcca7-9136-4146-b998-2b20dfc8547b/image.png)
+
+다음으로 할 일을 지도에 등록할 때 고려한 부분입니다.
+할 일을 지도에서 클릭을 통해 쉽게 등록할 수 있도록 구현했습니다.
+
+> 또한 알림을 받을 범위를 설정할 수 있도록 해서 원하는 범위 내부에서만 알림을 받을 수 있도록 구현했습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/98abf88b-41ea-460e-978d-0c80a08af0ee/image.png)
+
+지도에서 검색을 할 경우 사용자가 원하는 장소로 쉽게 이동할 수 있고 해당 검색 기록은 저장되어 추후에 그 장소로 빠르게 이동할 수 있도록 했습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/9845516f-c450-4bbd-9d85-7aff88aa8887/image.png)
+
+장소와 관련하여 사람들에게 더 좋은 경험을 제공하기 위해 현재 위치를 기반으로 장소를 추천해주는 기능을 추가했습니다. 추천되는 장소는 현재 위치에서 가까운 유동인구가 많은 유명한 장소입니다.
+사용자는 여행이나 맛집 탐방을 진행할때 해당 기능을 사용하여 유명한 장소를 쉽게 찾아 할 일을 등록할 수 있습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/5a32e81b-74b4-4dc7-a472-ca99085977b6/image.png)
+
+다음으로 각각의 할 일에 대하여 알림을 받고 싶은 조건을 설정할 수 있도록 했습니다. 시간 알림이나 장소 알림 중 원하는 알림만 받을 수 있으며 시간과 장소 모두 만족하는 조건에 대한 알림을 설정할 수도 있습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/bd2d30bf-2961-4bf8-b35b-f375776d6efb/image.png)
+
+MOZI와 같은 할 일 관리 애플리케이션은 시간과 장소에 관계없이 접근가능해야합니다.
+예를 들어 밖에서 핸드폰을 하고 있는 중에도 접근가능해야하고, 업무중에 데스크탑에서도 접근할 수 있어야합니다. 심지어는 비행기와 같이 네트워크가 정상적으로 작동하지 않는 상황에서도 접근할 수 있어야합니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/f0bafccd-6d2e-4752-b37d-762ba624099f/image.png)
+
+따라서 저희는 MOZI를 어디서든지 접근할 수 있게 만들기 위해 노력했습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/e63afb86-2a56-467e-ad69-ea0cdab99712/image.png)
+
+어떠한 상황에서도 애플리케이션을 항상 사용 가능한 상태로 만들기 위해 두가지 상황을 고려했습니다.
+
+첫째로 **어떤 기기에서도 접근 가능**해야한다.
+둘째로 **오프라인 상황에서도 사용**할 수 있어야한다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/3a43dc37-171e-4b9a-9e97-d40450c79105/image.png)
+
+다양한 기기를 지원하려면 안드로이드와 iOS, 즉 네이티브 애플리케이션을 따로 개발해야하며, 웹도 만들어야합니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/0bdc0586-0631-4e7d-a7db-b9aba663cfa1/image.png)
+
+모든 플랫폼에 맞는 애플리케이션을 개발할 수는 없기에 코드를 한번 작성하고 모든 플랫폼을 지원할 수 있는 전략을 채택했습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/87669aae-4634-4615-9d84-3ee9ab0f673f/image.png)
+
+바로 PWA를 활용하는 것 입니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/0a006fdd-f640-4644-b0ee-03f0391be7b7/image.png)
+
+웹과 네이티브 앱을 각각 개발하는 대신에 웹의 장점을 극대화한 PWA를 활용하였습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/fd8a4afe-f0eb-4422-8ce1-700fe11ccd1e/image.png)
+
+PWA는 웹에서 네이티브 앱의 경험을 느낄 수 있도록 합니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/a856389c-d60e-4fbd-ac0f-b1f8260d27f7/image.png)
+
+웹에서 설치가능하도록 할 수 있어서 앱스토어를 거치지 않고 핸드폰이나 데스트탑에 바로 설치할 수 있습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/eba5dad4-0545-4166-ba48-f7fa4eee9314/image.png)
+
+다음으로 고려한 사항은 오프라인 지원입니다.
+PWA도 웹이기 때문에 웹의 한계에 종속될 수 밖에 없습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/19723038-0d84-4285-b7fb-130e82da1a58/image.png)
+
+웹의 한계는 다음과 같습니다. 웹 브라우저에서 서버가 연결되어있어야만 동작할 수 있다는 것입니다.
+데이터를 수정하려면 서버에 요청을 해야합니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/b2099c99-b636-480b-b670-4abeed15a7b6/image.png)
+
+네트워크의 연결이 끊어진다면 아무것도 할 수 없습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/f00b8af3-9ddc-4a1a-9eef-7459934a6fee/image.png)
+
+이 네트워크라는 한계에 종속되지 않게 하기 위하여 브라우저에 존재하는 데이터베이스인 IndexedDB를 데이터 통신의 기점으로 사용했습니다. 브라우저에서 유저의 모든 상호작용이 IndexedDB에 저장이되고 네트워크 연결이 되어있으면 서버에 바로 동기화 시킵니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/e7b881bb-934a-47fc-9653-cc5c5bb19940/image.png)
+
+네트워크 연결이 끊어졌을 경우에는 네트워크 연결이 다시 이루어졌을 때 브라우저의 Sync Manager가 네트워크 연결을 감지하고 사용자가 오프라인에서 했던 작업들을 서버에 동기화 시킵니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/a29681b1-4b73-4915-a0cb-e0f53225a04c/image.png)
+
+이를 백그라운드 동기화라고 합니다. 백그라운드 동기화를 통해 기존 웹의 한계를 넘을 수 있습니다.
+사용자는 네트워크 연결과 관계없이 웹과 상호작용할 수 있습니다.
+또한 오프라인에서 했던 작업들이 온라인에 잘 동기화되었는가 신경쓸 필요가 없습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/afb78464-0b47-4371-ae46-4bb10aebb314/image.png)
+
+이렇게 저희가 겪었던 두가지 문제를 모두 해결했습니다.
+여러 플랫폼을 지원해야하는 문제를 PWA를 사용하여 코드를 한번 작성하는 것으로 해결했습니다.
+오프라인에서도 작동해야하는 문제를 백그라운드 동기화 기능을 사용하여 해결했습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/48f98c98-3a51-4b09-9c39-6b2350dca022/image.png)
+
+할 일 관리 서비스는 정말 다양하고 많습니다.
+MOZI에서는 브라우저의 장점을 최대한 살려 백그라운드 동기화를 통한 오프라인 기능과 알림 기능을 구현했습니다.
+
+할 일관리를 **시간과 장소에 특정해 접근**했다는점,  
+애플리케이션을 **어디서든 쉽게 사용할 수 있다**는점이 저희가 진행한 프로젝트의 **가치**라고 생각합니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/712e1167-5a35-4ac9-918b-d1d324da2291/image.png)
+
+기존 David Allen의 인용문을 확장하면, 사람들은 무엇이든 할 수는 있지만 모든 것을 어디에서나, 언제나 할 수는 없습니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/78c7e862-5c4f-4d68-896e-04a62e0515b7/image.png)
+
+감사합니다.
+
+![](https://velog.velcdn.com/images/hyunjine/post/98564be1-db78-4974-9298-aa9abbf6a629/image.png)
+
+![](https://velog.velcdn.com/images/hyunjine/post/50b6d5ee-bd02-4849-a748-f290abb7ace6/image.png)
+
+![](https://velog.velcdn.com/images/hyunjine/post/9379bae3-c57f-41d7-a0d8-a00eb09a44f7/image.png)
+
+![](https://velog.velcdn.com/images/hyunjine/post/7f90e2ae-4a3e-4655-8e80-720fac4b24ca/image.png)
+
+![](https://velog.velcdn.com/images/hyunjine/post/b127b730-4ef5-436d-8b0a-4f29be063f48/image.png)
+
+![](https://velog.velcdn.com/images/hyunjine/post/cbc59ac9-817a-4360-a6b8-2d903e3c6dab/image.png)
+
+![](https://velog.velcdn.com/images/hyunjine/post/6a65e697-70ce-4615-9b4d-289619861b66/image.png)
+
+- [MOZI Client](https://github.com/team-yaza/mozi-client)
+- [MOZI Server](https://github.com/team-yaza/mozi-server)
+- [MOZI 기술 블로그](https://mozi.vercel.app/blog)
