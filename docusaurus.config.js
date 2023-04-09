@@ -68,7 +68,7 @@ const config = {
           { to: "/blog", label: "Blog", position: "left" },
           {
             type: "doc",
-            docId: "MOZI",
+            docId: "Login",
             position: "left",
             label: "Tutorial",
           },
