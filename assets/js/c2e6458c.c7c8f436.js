@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmozi_docs=self.webpackChunkmozi_docs||[]).push([[71],{1305:s=>{s.exports=JSON.parse('{"label":"PWA","permalink":"/blog/tags/pwa","allTagsPath":"/blog/tags","count":7}')}}]);
